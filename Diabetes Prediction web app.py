@@ -11,7 +11,8 @@ import streamlit as st
 
 
 # loading the saved model
-loaded_model = pickle.load(open('/Users/bijayathebe/Downloads/Diabeties_Pred_System/trained_model.sav', 'rb'))
+# loaded_model = pickle.load(open('C:\Users\thokl\Major Project\Diabetes_Pred_System_ML_Project/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('C:\\Users\\thokl\\Major Project\\Diabetes_Pred_System_ML_Project\\trained_model.sav', 'rb'))
 
 
 # creating a function for Prediction
